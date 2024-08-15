@@ -6,7 +6,7 @@ const servidor = Fastify({
 })
 
 servidor.get('/teste', function controlador(requisicao, resposta){
-    const saudacao = 'Bem vindo ao primeiro servidor Node.js'
+    const saudacao = 'Bem vindo ao primeiro servidor Node.js com Typescript'
     return resposta.send(saudacao)
 })
 
